@@ -1,0 +1,36 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.gameSquare {
+    border: 1px solid black;
+}
+
+#gameBoard {
+    border: 1px solid black;
+    height: 500px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 80vw;
+    max-height: 80vw;
+}
+
+#gameBoardContainer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
